@@ -17,6 +17,6 @@ func main(){
 		myString = arguments[1];
 	}
 	
-	io.WriteString(os.StdOut, myString);
-	io.WriteString(os.StdOut, "\n");
+	io.WriteString(os.Stdout, myString);
+	io.WriteString(os.Stdout, "\n");
 }
